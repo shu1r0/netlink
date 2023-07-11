@@ -9,3 +9,5 @@ require (
 )
 
 replace github.com/vishvananda/netlink => ./
+
+replace github.com/vishvananda/netlink/nl => ./nl
