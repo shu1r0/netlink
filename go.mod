@@ -7,6 +7,7 @@ require (
 	golang.org/x/sys v0.0.0-20220804214406-8e32c043e418
 )
 
-replace github.com/vishvananda/netlink => ./
-
-replace github.com/vishvananda/netlink/nl => ./nl
+replace (
+	github.com/vishvananda/netlink => ./
+	github.com/vishvananda/netlink/nl => ./nl
+)
